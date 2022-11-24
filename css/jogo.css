@@ -1,0 +1,104 @@
+.img {
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 10px;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.564);
+}
+
+.img img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+.placar {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.294);
+    border-radius: 8px;
+    margin-left: 10px;
+    width: 92%;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.564);
+}
+
+.div-player {
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    width: 40%;
+    margin-left: 10px;
+    margin: 5px;
+}
+
+.div-player span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.placar-player, .placar-oponent {
+    border: 2px solid rgba(255, 0, 0, 0.294);
+    margin-top: 8px;
+    border-radius: 8px;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.564);
+}
+
+.botao {
+    display: flex;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.botao button {
+    width: 33.3%;
+    padding: 8px;
+    font-size: 19px;
+    font-weight: 700;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.564);
+    background-color: rgb(49, 49, 49);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.botao button:active {
+    box-shadow: inset 3px 4px 8px 0px rgba(0, 0, 0, 0.564);
+    font-size: 16px;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.891);
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: 5;
+    display: none;
+}
+
+.modal h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+
+}
+
+.modal button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    font-size: 19px;
+    font-weight: 700;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.564);
+    background-color: rgb(49, 49, 49);
+    color: white;
+    cursor: pointer;
+    border: none;
+}

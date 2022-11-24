@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/padrao.css">
+    <link rel="stylesheet" href="../css/jogo.css">
+    <script src="../js/jogo.js" defer></script>
+    <title>Pedra papel tesoura</title>
+</head>
+<body>
+    <div class="mobile">
+        <div id="img-player" class="img">
+            <img id="player-img" src="../imagens/papel.png" alt="jogada player">
+        </div>
+
+        <div id="img-oponent" class="img">
+            <img id="oponent-img" src="../imagens/pedra.png" alt="jogada oponente">
+        </div>
+
+        <div class="placar">
+            <div class="placar-player">
+                <div class="div-player">
+                    <span class="nome-player"></span>
+                </div>
+                <div class="div-player">
+                    <span class="res-player">0</span>
+                </div>
+            </div>
+            <div class="placar-oponent">
+                <div class="div-player">
+                    <span class="nome-oponent">Player 2</span>
+                </div>
+                <div class="div-player">
+                    <span class="res-oponent">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="botao">
+            <button id="pedra">Pedra</button>
+            <button id="papel">Papel</button>
+            <button id="tesoura">Tesoura</button>
+        </div>
+        <div class="modal">
+            <h2 id="msg">Parabens Você ganhou</h2>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+</body>
+</html>
