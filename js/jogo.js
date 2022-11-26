@@ -117,7 +117,6 @@ pedra.addEventListener('click', () => {
     playerimg.style.opacity = 1
     player_jogada = 0
     oponentjogada()
-    jogada++
 })
 
 papel.addEventListener('click', () => {
@@ -125,7 +124,6 @@ papel.addEventListener('click', () => {
     playerimg.style.opacity = 1
     player_jogada = 1
     oponentjogada()
-    jogada++
 })
 
 tesoura.addEventListener('click', () => {
@@ -133,7 +131,6 @@ tesoura.addEventListener('click', () => {
     playerimg.style.opacity = 1
     player_jogada = 2
     oponentjogada()
-    jogada++
 })
 
 reiniciar.addEventListener('click', () => {
