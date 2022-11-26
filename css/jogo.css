@@ -102,3 +102,10 @@
     cursor: pointer;
     border: none;
 }
+
+.playernew, .oponentnew {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 8px 0;
+}

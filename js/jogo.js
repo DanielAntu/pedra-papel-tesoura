@@ -10,6 +10,7 @@ const nomeplayer = document.querySelector('.nome-player')
 const modal = document.querySelector('.modal')
 const reiniciar = document.querySelector('#reiniciar')
 const msg = document.querySelector('#msg')
+const playernew = document.querySelector('.playernew')
 
 //msg de resultado do jogo
 const parabens = `Parabens ${localStorage.getItem('player')} você ganhou`
@@ -27,6 +28,7 @@ var soma = 0
 //pega o nome do player no localstorage
 const pegarplayer = () => {
     nomeplayer.innerHTML = localStorage.getItem('player')
+    playernew.innerHTML = localStorage.getItem('player')
 }
 
 // função que verifica o ganhador
